@@ -1,0 +1,88 @@
+body{
+    background-color: #E3E3E3 !important;
+
+}
+
+h1{
+    text-align: center;
+}
+
+form .row{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.row input{
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+}
+.row textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+.row button{
+    appearance: none;
+    border: 0;
+    border-radius: 3px;
+    background: #C2A792;
+    color: #fff;
+    padding: 12px 32px;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.row button:hover{
+    background-color: #AF9682;
+}
+
+.form-group{
+    width: 90%;
+}
+
+.userContainer{
+    background-color: #fff;
+    color: black;
+    margin: 40px 40px;
+    padding: 20px 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    min-height: 200px;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.tableContainer{
+    padding: 20px 30px;
+}
+
+.mainContent{
+
+    width: 100%;
+    padding: 10px 50px;
+
+    background-image: linear-gradient(rgba(50,50,50,0.3),rgba(50,50,50,0.3)),url(../image/loginBack.jpg) !important;
+    background-size: 100%;
+    background-position: 0% 10%;
+    background-attachment: fixed;
+}
+
+
+
+.mainPage{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.mainContent > .row{
+    margin-bottom: 60px;
+}
+

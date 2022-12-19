@@ -1,0 +1,360 @@
+.btn-second {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 15px;
+
+    font-size: 18px;
+    display: inline;
+    color: #fff;
+    background: #222;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+}
+
+
+.title-second {
+    font-size: 1.5em;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.box1 {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+.box2 {
+    /* background: red; */
+    padding: 10px;
+}
+
+.box2 h5{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.box4{
+    padding: 20px;
+}
+
+.poster-image {
+
+    border: 5px solid #fff;
+    border-radius: 10px;
+    
+}
+
+#anime img{
+    width: 70%;
+}
+
+#anime {
+    
+}
+.container{
+    
+    margin: 30px auto;
+}
+
+.row {
+    padding : 10px 0;
+    margin: 0;
+}
+form .row label{
+    font-size: 28px;
+    color: #363636;
+    margin: 0;
+}
+form .row textarea{
+    width: 100%;
+    height: 120px;
+    padding: 6px 12px;
+    color: #505050;
+    font-size: 1rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+form .row button{
+    appearance: none;
+  border: 0;
+  border-radius: 3px;
+  background: #ff5c57;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.container form{
+    padding: 0px 20px;
+}
+
+.anime-title {
+    font-size: 2.5em;
+    line-height: 42px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    text-align: left;
+    padding: 20px 10px 20px;
+    color: black;
+}
+
+.box5{
+    margin-top: 30px;
+    width: 230px;
+}
+
+
+.boxButtns{
+    text-align: center;
+    margin-left: -15px;
+
+}
+
+.smallRat{
+    font-size: 12px;
+    color: #E1E1E1;
+}
+
+.buttnReview{
+    padding: 10px 27px;
+    background: #5C5C5C;
+    margin-top: 30px;
+
+}
+
+.buttnReview:hover{
+    color: #EEEEEE;
+    background-color: #707070;
+}
+
+/* RATING */
+.rating-area {
+    overflow: hidden;
+    width: 230px;
+    margin: 0 auto;
+    margin-left: -15px;
+}
+
+.formRating p{
+    font-size: 20px;
+    color: #403e3e;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.rating-area:not(:checked) > input {
+    display: none;
+}
+.rating-area:not(:checked) > label {
+    float: right;
+    width: 20px;
+    padding: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 35px;
+    line-height: 26px;
+    color: lightgrey;
+}
+.rating-area:not(:checked) > label:before {
+    content: '★';
+}
+.rating-area > input:checked ~ label {
+    color: #FFB257;
+}
+.rating-area{
+
+}
+
+
+
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    color: #F1CCA1;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+    color: #F1CCA1;
+}
+.rate-area > label:active {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: #E8E8E8;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 95%;
+    left: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* Reviews */
+.main-review{
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review {
+
+    border-top: 1px solid #111 ;
+    border-bottom: 1px solid #111 ;
+    padding: 10px;
+}
+
+.box-review1{
+    text-align: center;
+}
+.box-review2{
+    color: #fff;
+
+    /* background: blue; */
+}
+
+.user-profile {
+    border-radius: 50%;
+    padding: 10px;
+    width: 70%;
+}
+
+.dateAddedReview{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #B5B5B5;
+}
+
+.textReview{
+    margin-top: 10px;
+
+}
+
+.textReview p{
+    font-size: 16px;
+}
+
+.select-wrapper {
+    width: 80%;
+    margin-left: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #E5E5E5;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+
+}
+
+#w1 {
+    padding: 0;
+}
+
+.selectListItem{
+    color: #E5E5E5;
+    width: 100%;
+    height: 40px;
+
+    font-size: 16px;
+    padding: 6px;
+    border: 0;
+
+
+
+    background-color: #3E3E3E;
+}
+
+.labelComment{
+    display: none;
+}
+
+#reviewForm .row .form-group{
+    width: 100%;
+}
+
+#reviewForm .row .form-group .help-block{
+    margin-top: 0px;
+}
+
+.select-wrapper > select {
+    color: #E5E5E5;
+    padding: 7px 14px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+
+    border: 0;
+    appearance: none;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #3E3E3E;
+}
+
+.select-wrapper > select::-ms-expand{
+    display: none;
+}
+
+.select-arrow {
+    position: absolute;
+    z-index: 0;
+    border: 8px solid transparent;
+    border-bottom: 0;
+    right: 8px;
+}
+.select-arrow:nth-child(2) {
+    top: 15px;
+    border-top-color: #E5E5E5;
+}
+.select-arrow:nth-child(3) {
+    top: 13px;
+    border-top-color: #FFF;
+}

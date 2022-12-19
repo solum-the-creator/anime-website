@@ -1,0 +1,155 @@
+.animeList{
+	background-color: #fff;
+	color: black;
+	margin: 40px 40px;
+	padding: 20px 40px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+body{
+	background-color: #E5E5E5 !important;
+}
+
+.container{
+	max-width: 100%;
+}
+
+.animeList h1 a{
+	color: black;
+	font-size: 2.5rem;
+}
+
+.cardInfo h1 a{
+	cursor: pointer;
+}
+
+.cardInfo h1:hover{
+	text-decoration: underline;
+
+}
+
+.filters{
+	background-color: #fff;
+	margin: 40px 20px;
+	max-height: 450px;
+	min-height: 450px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 0;
+	color: #262626;
+}
+
+.filters h1{
+	font-size: 26px;
+	margin-bottom: 30px;
+	padding: 20px 20px;
+	color: #F2F8FF;
+}
+
+.filters h1 i{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.cardImage img{
+	width: 80%;
+	cursor: pointer;
+
+}
+
+
+.cardInfo h5{
+	color: #777777;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.module{
+	 width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 120px;
+  color: #9D9D9D;
+    
+}
+
+
+.filterTitle{
+	background-color: #343A40;
+	width: 100%;
+	border-radius:3px 3px 0px 0px;
+
+}
+
+.select-wrapper {
+    width: 100%;
+    position: relative;
+    height: 38px;
+    color: #CBCFD2;
+    background: transparent;
+    border: 1px solid #bcbcbc;
+    border-radius: 2px;
+
+}
+
+.sortBy hr{
+	margin-top: 40px;
+}
+
+.select-wrapper > select {
+	color: #5D5F61;
+	padding: 5px 10px;
+    width: 100%;
+    height: 37px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    appearance: none;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-wrapper > select::-ms-expand{
+    display: none;
+}
+
+.select-arrow {
+    position: absolute;
+    z-index: 0;
+    border: 8px solid transparent;
+    border-bottom: 0;
+    right: 11px;
+}
+.select-arrow:nth-child(2) {
+    top: 15px;
+    border-top-color: #bdbdbd;
+}
+.select-arrow:nth-child(3) {
+    top: 13px;
+    border-top-color: #FFF;
+}
+
+.filterCategory{
+	margin: -10px 20px;
+}
+
+.filterCategory h3{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.filterCategory .form-group{
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.filterOnly{
+	margin-top: 40px;
+}
+

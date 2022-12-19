@@ -1,0 +1,567 @@
+body{
+	background: #ffffff !important;
+	 margin : 0;
+	 font-family: 'Nunito', sans-serif !important;
+    letter-spacing: -.03em;
+    font-size: 16px;
+}
+
+.help-block{
+    color: #FA3232;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.pagination li {
+    float: left;
+
+    text-decoration: none;
+    color: #0f0f0f;
+    border-radius: 3px;
+    padding: 10px 20px;
+
+}
+
+.pagination li a, .pagination li span{
+    color: #0f0f0f;
+    font-size: 18px;
+}
+
+
+
+.pagination li.active {
+    background-color: #F3E7DD;
+    color: white;
+}
+
+.pagination li:hover:not(.active) {background-color: #ddd;}
+
+.navbar{
+	background-color: #ffffff;
+	font-size: 18px;
+    margin-bottom: 10px !important;
+
+}
+
+.nav-item{
+    margin-right: 30px;
+
+}
+
+.nav-item .nav-link{
+    display: table-cell;
+    height: 80px;
+    margin-left: 40px;
+
+    vertical-align: middle;
+
+}
+
+
+
+.nav-link{
+	color: #4C4F52;
+
+
+}
+
+.navbar li a{
+    color: #4C4F52;
+
+
+}
+
+
+.navbar li a:hover{
+    background: none !important;
+}
+
+.nav-link img{
+    margin-top: -5px;
+}
+
+.nav-link:hover{
+	color: #0E0E0F;
+}
+
+.navbar-brand img{
+	height: 70px;
+
+}
+
+.navbar-brand .row{
+    margin-top: -40px;
+}
+
+.navbar-brand .row h1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+
+    margin-top: 20px;
+	font-size: 50px;
+    height: 50px !important;
+	margin-left: 30px;
+	color: black;
+}
+
+
+
+.navbar-brand:hover{
+	color: black;
+}
+
+.userIcon{
+    border-radius: 50%;
+}
+
+
+
+
+.form-inline input{
+	width: 600px !important;
+	background-color: #E6EAEB;
+}
+
+.form-inline button{
+	border: none ;
+	margin-left: -40px;
+	color: #595959;
+	background-color: #E6EAEB;
+}
+
+.form-inline button:hover{
+	background: none;
+	color: black;
+}
+
+/* Header style */
+
+.body{
+    padding:100px 0 30px 0;
+    
+}
+
+.inner-body {
+    text-align: center;
+    padding: 20px 20px;
+    width: 80%;
+}
+
+.title {
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+header{
+    background-image: linear-gradient(rgba(50,50,50,0.6),rgba(50,50,50,0.6)),url(../image/headerBack.jpg);
+    background-size: 120%;
+    height: 88vh;
+    background-position: 10% 0%;
+    background-attachment: fixed;
+}
+
+.content{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.btn-main {
+    padding: 8px 26px;
+    border: 1px solid #C2A792;
+    background: transparent;
+    color: #F3E7DD !important;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+.btn-main-primary {
+    background-color: #C2A792;
+    color: #F9F3EE !important;
+    text-align: center;
+    width: 20%;
+}
+
+.btn-main:hover {
+    background: #AD9583;
+    border: 1px solid #AD9583;
+    color: #F9F3EE;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background: #ffffff;
+    color: silver;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0 10px;
+}
+
+
+/* sliderDemo */
+
+.ratedAnimeHead{
+	margin-top: 40px;
+	padding: 10px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.carousel-control-prev{
+	margin-left:-100px;
+}
+.carousel-control-next{
+	margin-right: -100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 90px;
+  width: 90px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: #C2A792;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: #C2A792;
+}
+
+.dropdown-item:active{
+	background-color: #AD9583;
+}
+
+#topAnime1 img, #topAnime2 img, #topAnime3{
+    width: 100%;
+} 
+
+.row {
+    padding : 20px 10px;
+} 
+
+.box{
+    padding: 15px;  
+}
+
+
+.button {
+    background: #C2A792;
+    color: #F9F2EC !important;
+    margin-top: 20px;
+    padding: 7px 15px;
+    font-size: 16px;
+    display: inline;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.buttnMore{
+    margin-top: 20px;
+}
+
+.button:hover{
+	background: #AD9583;
+
+}
+
+.browse-anime-year {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #919191;
+}
+
+.browse-anime-title{
+    font-size: 1.2em;
+    color: #45423F;
+    font-weight: 700;
+    display: block;
+    transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.browse-anime-bottom{
+    margin: 10px 5px;
+    max-width: 220px;
+    text-align: left;
+}
+
+.img {
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.contactUs{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-top:80px;
+	padding-bottom:80px;
+	width: 100%;
+    background-image: linear-gradient(rgba(50,50,50,0.6),rgba(50,50,50,0.6)),url('../image/contactUs.jpg');
+
+	align-content: center;
+	background-size: 140%;
+background-position: 50% 140%;
+background-attachment: fixed;
+
+}
+
+.text-center1{
+	text-align: center;
+	width: 100%;
+    height: 200px;
+}
+
+#popup1{
+    z-index: 1000;
+}
+
+.text-center p{
+	width: 100%;
+}
+
+.black-text {
+	color: #F9F2EC;
+	font-size: 38pt;
+	text-transform: uppercase;
+	font-weight: 900;
+	width: 100%;
+}
+
+.lead.black-text{
+	font-size: 44pt;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: -14px;
+	margin-bottom: 20px;
+}
+
+.buttonContact{
+	background: #C2A792;
+    color: #F9F2EC !important;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    display: inline;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*-----------------------------------------*/
+/*            ADMIN                  */
+.anime-index{
+    padding: 40px 100px;
+
+}
+.anime-index h1{
+    text-align: center;
+}
+
+.anime-index .grid-view img{
+    width: 100px;
+}
+
+.anime-index svg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.anime-create{
+    padding: 40px 300px;
+}
+.anime-create h1{
+    text-align: center;
+}
+
+.anime-create form .form-group{
+    margin-bottom: 40px;
+}
+.anime-create form .form-group button{
+    width: 100px;
+}
+.anime-create form .help-block{
+    margin-top: 0;
+}
+
+.anime-view{
+    padding: 40px 100px;
+}
+.anime-view h1{
+    text-align: center;
+}
+
+.anime-view form .form-group{
+    margin-bottom: 40px;
+}
+.anime-view form .form-group button{
+    width: 100px;
+}
+
+.anime-update{
+    padding: 40px 300px;
+}
+.anime-update h1{
+    text-align: center;
+}
+
+.anime-update form .form-group{
+    margin-bottom: 40px;
+}
+.anime-update form .form-group button{
+    width: 140px;
+}
+
+.anime-form{
+
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+.anime-form h1{
+    margin-bottom: 40px;
+}
+
+.anime-form input{
+    margin-bottom: 30px;
+    overflow-wrap: break-word;
+
+    overflow: visible;
+}
+
+.addImage{
+    text-align: center;
+}
+
+
+
+
+/*CATEGORY*/
+
+.category-index{
+    padding: 40px 100px;
+
+}
+.category-index h1{
+    text-align: center;
+}
+
+.category-index .grid-view img{
+    width: 100px;
+}
+
+.category-index svg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.category-create{
+    padding: 40px 300px;
+}
+.category-create h1{
+    text-align: center;
+}
+
+.category-create form .form-group{
+    margin-bottom: 40px;
+}
+.category-create form .form-group button{
+    width: 100px;
+}
+.category-create form .help-block{
+    margin-top: 0;
+}
+
+.category-view{
+    padding: 40px 100px;
+}
+.category-view h1{
+    text-align: center;
+}
+
+.category-view form .form-group{
+    margin-bottom: 40px;
+}
+.category-view form .form-group button{
+    width: 100px;
+}
+
+.category-update{
+    padding: 40px 300px;
+}
+.category-update h1{
+    text-align: center;
+}
+
+.category-update form .form-group{
+    margin-bottom: 40px;
+}
+.category-update form .form-group button{
+    width: 140px;
+}
+
+.category-form{
+
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+.category-form h1{
+    margin-bottom: 40px;
+}
+
+.category-form input{
+    margin-bottom: 30px;
+    overflow-wrap: break-word;
+
+    overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+

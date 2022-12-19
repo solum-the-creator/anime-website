@@ -1,0 +1,54 @@
+.listsInfo {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+}
+
+.countLink{
+	color: #BCBCBC;
+	font-weight: 600;
+}
+
+.cardLink{
+	color: #F08E8B;
+
+}
+
+.cardLink:hover{
+	color: #FC6C67;
+
+}
+
+.card-header{
+	padding: 20px 30px;
+}
+
+.tableContainer{
+	padding: 20px 30px;
+}
+
+.tdImage a img{
+	width: 80px;
+}
+
+.tdImage{
+	width: 80px;
+}
+
+.tdNameAnime{
+	max-width: 130px;
+
+    
+    
+}
+
+.tdNameAnime a{
+
+	
+    color: #F08E8B;
+    font-size: 18px;
+}
+
+.tdNameAnime a:hover{
+	text-decoration: underline !important;
+}

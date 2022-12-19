@@ -1,0 +1,43 @@
+.deleteButton{
+	cursor: pointer;
+	transition: all 0.1s ease-out;
+	color: #0f0f0f;
+}
+
+.deleteButton:hover{
+	color: #DA6565;
+}
+
+.adminTd{
+	max-width: 100px;
+	font-size: 16px;
+	
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.addAnimeButton{
+	
+	margin-top: 10%;
+	
+	
+	
+}
+
+.addAnimeButton a{
+	color: #EFEFEF;
+	padding: 12px 24px;
+	background-color: #303030;
+	font-size: 16px;
+	border-radius: 2px;
+	transition: all 0.2s ease-out;
+	border: none;
+}
+
+.addAnimeButton a:hover{
+	color: #EAEAEA;
+	background-color: #616161;
+}
+
+
+

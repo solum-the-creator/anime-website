@@ -1,0 +1,32 @@
+.row{
+	padding: 0 10px;
+	font-size: 20px;
+}
+
+.row input{
+	width: 100%;
+	font-size: 18px;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+}
+
+.row textarea{
+	width: 100%;
+	font-size: 18px;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+	min-height: 100px;
+}
+
+
+.row button{
+	 appearance: none;
+  border: 0;
+  border-radius: 3px;
+  background: #ff5c57;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 20px;
+  margin: auto;
+}
+ 
